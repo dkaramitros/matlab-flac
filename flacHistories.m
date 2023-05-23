@@ -10,7 +10,7 @@ titles={};
 data=[];
 
 % Only read if file exists
-if exist("input_file","file")
+if exist(input_file,'file')==2
 
     % Open history file
     hisfile=fopen(input_file);
